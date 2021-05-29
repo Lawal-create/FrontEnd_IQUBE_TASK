@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="index.js"></script>
 </head>
 
 <body class="header_body">
@@ -16,12 +15,15 @@
     </div>
     <div class="align_body">
     <h3 class="topic"> Reason for contacting us</h3>
-    <div class="dropdown_menu" onclick="showDropdown()">
-    <span id="dropdown_text">I have a question about the service </span>
-    <img src="images\img_src.png" class="dropdown_arrow"/>
+    <select id="dropdown_text">
+        <option value="option1">I have a question about the service </option>
+    <option value="option2">I have a problem with the API</option>
+    <option value="option3">I have an issue with the product that needs to be resolves urgently</option>
+    <option value="option4">I have a minor problem</option>
+    <option value="option5">My inquiry isn't amongst the ones mentioned above</option>
+    </select>
     <div class="dropdown_content" id="dropdown">
         
-    </div>
     </div>
 
     <p class="head">
