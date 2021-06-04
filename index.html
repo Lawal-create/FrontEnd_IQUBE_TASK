@@ -19,11 +19,11 @@
     <form action="http://localhost:3000" method="POST">
 
     <select id="dropdown_text" name="inquiry">
-        <option value="option1">I have a question about the service </option>
-        <option value="option2">I have a problem with the API</option>
-        <option value="option3">I have an issue with the product that needs to be resolves urgently</option>
-        <option value="option4">I have a minor problem</option>
-        <option value="option5">My inquiry isn't amongst the ones mentioned above</option>
+        <option value="0">I have a question about the service </option>
+        <option value="1">I have a problem with the API</option>
+        <option value="2">I have an issue with the product that needs to be resolves urgently</option>
+        <option value="3">I have a minor problem</option>
+        <option value="4">My inquiry isn't amongst the ones mentioned above</option>
     </select>
 
     <p class="head">
@@ -32,14 +32,14 @@
     
         <div class="form">
         <input type="text", placeholder="First name" name="Firstname", class="input_form_col1">
-        <input type="text", placeholder="Second name" name="Secondname", class="input_form_col2">
+        <input type="text", placeholder="Last name" name="Lastname", class="input_form_col2">
         <input type="email", placeholder="EmailAddress" name="EmailAddress", class="input_form_col1">
         <input type="number", placeholder="PhoneNumber" name="PhoneNumber", class="input_form_col2">
         </div>
 
         <p class="message_txt">Message</p>
         <div>
-            <textarea id="message" rows="14" placeholder="Type your message here"></textarea>
+            <textarea id="message" rows="14" placeholder="Type your message here" name="Message"></textarea>
         </div>
         <div id="position" >
             <input type="submit" class="button" value="Send Message">
