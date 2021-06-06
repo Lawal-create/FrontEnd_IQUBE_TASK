@@ -128,16 +128,21 @@
         justify-content: flex-end;
     }
 
-    #dropdown_text{
+select.dropdown_info{
         width: 100%;
         font-family:TT Norms ;
         font-style:normal;
         font-size: 20px;
-        align-self:  Center;
-        background-color: rgba(255, 238, 209, 0.2);
         text-align: justify;
-        padding:24px;
-        border-radius: 5px; 
-        border-right-width: 20px;
-        border-color: rgba(255, 238, 209, 0.2);
+        border-style: none;
+        background-repeat: no-repeat;
+        background:url("images/img_src.svg");
+        background-position: right 0px;
+        color: black;
     }
+
+.dropdown_background{
+    background-color: rgba(255, 238, 209, 0.2);
+    padding:24px;
+    ;
+}
